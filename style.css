@@ -1,0 +1,49 @@
+body {
+  font-family: Consolas;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+h1 {
+  color: rgb(239, 184, 247);
+  text-shadow: 4px 4px 10px rgb(188, 155, 248);
+}
+
+a {
+  color: rgb(128, 117, 168);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(184, 156, 250);
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 4px 4px 10px rgb(178, 140, 240);
+}
+a::after {
+  content: "🎀";
+}
+
+ul > li {
+  font-weight: bold;
+  text-shadow: 3px 3px 3px blue;
+}
+
+ul li :hover {
+  color: #c9d1d9;
+  text-shadow: 3px 3px 3px rgb(215, 191, 235);
+  background-color: blanchedalmond;
+}
+
+ul li:nth-child(5) {
+  background-color: rgb(160, 203, 243);
+}
+
+ul li::before {
+  content: "🦋";
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: rgb(133, 113, 189);
+}
