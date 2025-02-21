@@ -29,14 +29,14 @@ ul > li {
   text-shadow: 3px 3px 3px blue;
 }
 
-ul li :hover {
+ul li:hover {
   color: #c9d1d9;
   text-shadow: 3px 3px 3px rgb(215, 191, 235);
-  background-color: blanchedalmond;
+  background-color: rgb(23, 40, 116);
 }
 
 ul li:nth-child(5) {
-  background-color: rgb(160, 203, 243);
+  background-color: rgb(14, 61, 105);
 }
 
 ul li::before {
